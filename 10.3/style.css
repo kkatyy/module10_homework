@@ -1,0 +1,40 @@
+.wrapper {
+	width: fit-content;
+    margin: auto;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	position: sticky;
+    top: 0px;
+}
+
+.output-container {
+	width: 445px;
+	min-height: 300px;
+	border: 3px solid rgb(120, 217, 247);
+	margin: 10px 0;
+}
+
+.output {
+	display: flex;
+	flex-direction: column;
+	}
+
+.input {
+    width: 230px;
+	border: 3px solid rgb(120, 217, 247);
+}
+
+.btn {
+	width: 100px;
+    height: 30px;
+		background-color: rgb(120, 217, 247);
+	border: none;
+	cursor: pointer;
+}
+
+.btn-send {
+	margin: 0 5px;
+}
